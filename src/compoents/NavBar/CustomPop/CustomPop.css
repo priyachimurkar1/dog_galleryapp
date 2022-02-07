@@ -1,0 +1,48 @@
+.select{
+    background-color: lightgray;
+    width: 200px;
+    height: 40px;
+    color: black;
+    margin-top: 30px;
+    margin-left: 30px;
+}
+.container{
+    position: absolute;
+    height: 100%;
+    width:100% ;
+    background-color:rgba(0, 0, 0, 0.8);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.input-box{
+    background-color: lightgray;
+    width: 200px;
+    height: 35px;
+    color: black;
+    margin-left: 130px;
+
+
+}
+.button-custom{
+    width: 200px;
+    height: 40px;
+    background-color: green;
+    color: white;
+    cursor: pointer;
+    margin-top: 30px;
+    margin-left: 200px;
+}
+.img-cont {
+    margin: 20px;
+    display:inline-block;
+    cursor: pointer;
+
+}
+.img-cont img{
+    height: 100px;
+    width: 100px;
+    margin: 10px;
+}
+

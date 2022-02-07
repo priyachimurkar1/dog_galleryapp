@@ -1,0 +1,15 @@
+.searchbar{
+    height: 100px;
+     display: flex;
+   justify-content: center;
+   
+}
+.searchbar input{
+    background-color: lightgray;
+    border: none;
+    font-size: 20px;
+    height: 40px;
+    width: 500px;
+    margin-top: 20px;
+    
+}

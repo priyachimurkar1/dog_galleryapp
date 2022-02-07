@@ -1,0 +1,13 @@
+.sub-breed-card{
+    margin: 20px;
+    display:inline-block;
+    cursor: pointer;
+}
+.sub-breed-card img{
+    height: 100px;
+    width: 100px;
+}
+.sub-breed-card h4{
+    margin-top: 0;
+    margin-left: 20px;
+}

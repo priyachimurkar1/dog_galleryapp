@@ -1,0 +1,42 @@
+.popup-container{
+    position: absolute;
+    height: 100%;
+    width:100% ;
+    background-color:rgba(0, 0, 0, 0.8);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.wrapper{
+    background-color: white;
+    width: 600px;
+    height: 500px;
+    /* position: relative; */
+    overflow: scroll;
+}
+.upper-box{
+    background-color: lightgray;
+    display: flex;
+    align-items: center;
+    width: 600px;
+    height: 50px;
+}
+.upper-box h3{
+    margin-left: 250px;
+}
+.cancel-symbol{
+    margin-left: 150px;
+    font-size: 30px;
+    width: 30px;
+    height: 30px;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    transition: all .2s ease-in-out; 
+}
+.cancel-symbol:hover { 
+    transform: scale(1.1); 
+    }
